@@ -10,7 +10,8 @@
 csv です。下記に各カラムの意味を示します。
 
 - `id`: [WikiHop](http://qangaroo.cs.ucl.ac.uk/) の事例 ID
-- `nb_hop`: 推論ステップ数
+- `nb_hop`: 論拠の推論ステップ数 (`0`, `1`, `2`, `3` のいずれか。`0` は命題が導出できないことを示す)
+- `reasoning`: 論拠
 - `query_nl`: 命題
 - `supdoc1`, `supdoc2`, `supdoc3`: 関連文書集合 (WikiHop より提供)
 
